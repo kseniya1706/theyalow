@@ -1,0 +1,184 @@
+.wrapper {
+    width: 1300px;
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    
+    height: 111px;
+    background-image: url(./assets/images/background1.png);
+    padding-left: 138px;
+    padding-right: 138px;
+
+} 
+
+.logo {
+   display: flex;
+   height: 83px;
+   font-size: 41px;
+   color: rgb(255, 255, 255);
+   font-family: "Lucida Sans";
+   font-style: italic;
+   margin-top: 28px; /*box-shadow: 1px 1.732px 0px rgba(0,0,0,0.42);*/
+}
+
+.nav-ul {
+    display: flex;
+    font-size: 17px;
+    color: #9b7d08;
+    font-family: "Segoe WP";
+    text-align: center;
+
+}
+
+.nav-ul-li{
+    display: flex;
+    height: 41px;
+    width: 151px;
+    background-color: rgb(244, 196, 4) ;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid rgb(220, 177,5);
+
+}
+
+.nav-ul-li img {
+    margin-right: 9px;
+}
+
+.nav-ul-li:last-child {
+    border: none;
+}
+
+.menu-icons {
+    display: flex;
+
+    margin: 9px;
+}
+
+.main {
+
+}
+
+.slider{
+    height: 454px;
+    background: none;
+    display: flex;
+    
+}
+
+.videoWindow {
+    width: 549px;
+    height: 327px;
+    margin-left: 150px;
+    margin-top: 57px;
+}
+
+.videoDescription {
+    font-size: 63px;
+    color: #f5c506;
+    font-family: "Asap";
+    font-weight: 400;
+    text-align: center;
+    margin-left: 50px;
+    padding-top: 145px;
+    border: 1px solid blueviolet;
+}
+
+/* .videoDescription:last-child {
+    color: #ffffff;
+    
+} */
+
+.advantages {
+    background-image: url(./assets/images/background2.png);
+    height: 212px;
+    padding-left: 138px;
+    padding-right: 138px;
+    display: flex;
+    justify-content: center;
+}
+
+.visualization {
+    background-image: url(./assets/images/background3.png);
+    height: 509px;
+    padding-left: 138px;
+}
+
+.visualization-caption{
+    font-size: 37px;
+    color: #ffffff;
+    font-family: "PT Sans";
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 43px;
+    border: 1px solid violet;
+    
+}
+
+.announcement {
+    width: 341px;
+    height: 233px;
+    background-color: #ec9e03;
+    color: #ffffff;
+    font-size: 29px;
+    line-height: 38px;
+    font-family: "Segoe WP";
+    font-weight: 300;
+    padding: 26px 32px;
+}
+
+
+.crossplatform {
+    background-image: url(./assets/images/background4.png);
+    height: 499px;
+    padding-left: 138px;
+}
+
+.footer {
+    height: 65px;
+    background-color: rgb(76, 76, 76);
+    box-shadow: -0.105px -2.998px 5px rgba(0,0,0,0.75);
+}
+.footer-logo {
+    height: 54px;
+    padding-left: 138px;
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "Lucida Sans";
+    font-style: italic;
+ }
+
+
+
+@font-face {
+    font-family: "Lucida Sans";  
+    src: url("./assets/fonts/Lucida-Sans.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Segoe WP";  
+    src: url("./assets/fonts/SegoeWP.woff") format("woff"),
+         url("./assets/fonts/SegoeWP.ttf") format("truetype");
+}
+
+    @font-face {
+        font-family: "Segoe WP";  
+        src: url("./assets/fonts/segoe-wp-light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Asap";  
+    src: url("./assets/fonts/Asap-Regular.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "PT Sans";  
+    src: url("./assets/fonts/PTS55F.ttf") format("truetype");
+}
